@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: outfit, sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    background-image: url(resources/Background_image.svg);
+    background-color: #121826;
+}
+
+.author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+}
+
+.author-info a {
+    text-decoration: none;
+}
+
+header {
+    margin: 1.25rem auto;
+    text-align: center;
+}
+h1 {
+    font-family: outfit, sans-serif;
+    color: #E6E7EC;
+}
+
+header p {
+    color: #8E949F;
+}
+
+#cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 0.5rem;
+    background-color: #212936;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: #E5E7EA;
+    margin-bottom: 1rem;
+}
+
+.card p {
+    color: #C9CCD1;
+}
+
+.card img {
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.emoji-1 {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 0.25rem;
+    margin: 0.5rem;
+    background-color: #FCEED8;
+    border-radius: 50%;
+}
+
+.emoji-2 {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 0.25rem;
+    margin: 0.5rem;
+    background-color: #DEE9FC;
+    border-radius: 50%;
+}
+
+.emoji-3 {
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 0.25rem;
+    margin: 0.5rem;
+    background-color: #FBE5E6;
+    border-radius: 50%;
+}
